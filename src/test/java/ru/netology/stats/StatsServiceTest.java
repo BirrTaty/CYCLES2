@@ -52,7 +52,7 @@ class StatsServiceTest {
         StatsService statsService = new StatsService();
 
         long actual = statsService.monthWithMax(purchases);
-        long expected = 5;
+        long expected = 8;
         assertEquals(expected, actual);
 
     }
@@ -62,7 +62,7 @@ class StatsServiceTest {
         StatsService statsService = new StatsService();
 
         long actual = statsService.monthWithMin(purchases);
-        long expected = 5;
+        long expected = 9;
         assertEquals(expected, actual);
 
     }
